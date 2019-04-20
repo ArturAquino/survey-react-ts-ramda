@@ -11,11 +11,10 @@ import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
 addLocaleData([...en, ...pt])
-let params = new URLSearchParams(document.location.search.substring(1))
-let locale = params.get("lang") || 'en-US'
+let locale = navigator.language || navigator['userLanguage'];
 
 ReactDOM.render(
-  <IntlProvider locale={locale} messages={flattenMessages(messages[locale])}>
+  <IntlProvider locale={locale} messages={flattenMessages(messages[locale])} defaultLocale="en">
     <App />
   </IntlProvider>,
   document.getElementById('root') as HTMLElement

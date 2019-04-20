@@ -1,0 +1,13 @@
+.thank-you-img {
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.thank-you-message {
+    text-align: center;
+    color: #2d2d2d;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: -60px;
+}

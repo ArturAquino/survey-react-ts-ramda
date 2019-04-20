@@ -5,4 +5,6 @@ body {
 }
 .content-wrapper {
   padding: 35vh 12px;
+  max-width: 768px;
+  margin: 0 auto;
 }
