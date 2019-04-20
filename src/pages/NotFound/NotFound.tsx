@@ -21,7 +21,7 @@ class NotFound extends React.Component<any> {
         <p className="not-found-message"><FormattedMessage id="pageNotFound" /></p>
         <p className="not-found-home">
           <FormattedMessage id="feelLonely" /> 
-          <Link to="/"><FormattedMessage id="homepage" /></Link>!
+          <Link tabIndex={0} to="/"><FormattedMessage id="homepage" /></Link>!
         </p>
       </Animated>
     );

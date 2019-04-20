@@ -1,6 +1,6 @@
 {
   "name": "survey-react-ts-ramda",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "animated": "^0.2.2",

@@ -42,7 +42,7 @@ export default class NPSComponent extends React.Component<Props> {
         callback(value);
     }
 
-    private renderNPSItem = (item: NPSItemType) => <li key={item.label}><NPSItem label={item.label} color={item.color} onSelect={() => this.submitNPS(item.label)} /></li>
+    private renderNPSItem = (item: NPSItemType) => <li key={item.label}><NPSItem tabIndex={0} aria-label={item.label} label={item.label} color={item.color} onSelect={() => this.submitNPS(item.label)} /></li>
 
     render() {
         return (

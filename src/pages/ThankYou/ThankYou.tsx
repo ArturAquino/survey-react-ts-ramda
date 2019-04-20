@@ -15,11 +15,14 @@ class ThankYou extends React.Component<any> {
     const thankYouMessage = intl.formatMessage({
       id: "thankYou"
     });
+    const ariaThankImg = intl.formatMessage({
+      id: "ariaThankImg"
+    });
     return (
       <Animated animationIn="zoomInUp" animationOut="fadeIn" isVisible={true}>
         <div className="content-wrapper">
-          <img className="thank-you-img" src={likeImg} alt={thankYouMessage}/>
-          <p className="thank-you-message"><FormattedMessage id="thankYou" /></p>
+          <img aria-label={ariaThankImg} role="img" className="thank-you-img" src={likeImg} alt={thankYouMessage}/>
+          <p arial-label={thankYouMessage} role="label" className="thank-you-message"><FormattedMessage id="thankYou" /></p>
         </div>
       </Animated>
     );

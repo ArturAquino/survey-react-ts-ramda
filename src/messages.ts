@@ -11,7 +11,11 @@ export default {
       thankYou: 'Thank you!',
       pageNotFound: 'Page not found.',
       feelLonely: 'Feeling lost? Go back to ',
-      homepage: 'homepage'
+      homepage: 'homepage',
+      ariaJustify: 'Justifies the rating you gave here.',
+      ariaBack: 'Backs to NPS rating.',
+      ariaSubmit: 'Submits you justify and finishes the survey.',
+      ariaThankImg: 'Like animated image as a thanks for finishing the survey'
     },
     'pt-BR': {
       hello: 'Olá',
@@ -25,6 +29,10 @@ export default {
       thankYou: 'Muito obrigado!',
       pageNotFound: 'Página não encontrada.',
       feelLonely: 'Meio perdido? Volte para a ',
-      homepage: 'página inicial'
+      homepage: 'página inicial',
+      ariaJustify: 'Justifica a nota que você deu.',
+      ariaBack: 'Volta para o NPS.',
+      ariaSubmit: 'Submete a sua justificativa e conclui a pesquisa.',
+      ariaThankImg: 'Imagem de joinha em gif animado agradecendo o final da pesquisa.'
     }
   }
