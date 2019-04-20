@@ -2,6 +2,7 @@ import * as React from "react";
 import "./Justify.css";
 import { Redirect } from "react-router-dom";
 import { FormattedMessage, injectIntl } from 'react-intl';
+import {Animated} from "react-animated-css";
 
 export interface State {
     backToNPS: boolean,
@@ -40,16 +41,18 @@ class Justify extends React.Component<any, State> {
             return <Redirect to="/complete" />
         }
         return (
-            <div className="content-wrapper">
-                <form onSubmit={this.handleSubmit}>
-                    <label htmlFor="exampleMessage"><FormattedMessage id="justifyPt1" /> {rating} <FormattedMessage id="justifyPt2" /></label>
-                    <textarea className="u-full-width" placeholder="" id="exampleMessage" required></textarea>
-                    <div className="row">
-                        <button value="Voltar" onClick={() => this.back()}><FormattedMessage id="back" /></button>
-                        <input className="u-pull-right button-primary" type="submit" value={inputValue} />
-                    </div>
-                </form>
-            </div>
+            <Animated animationIn="slideInUp" animationOut="zoomOutUp" isVisible={true}>
+                <div className="content-wrapper">
+                    <form onSubmit={this.handleSubmit}>
+                        <label htmlFor="exampleMessage"><FormattedMessage id="justifyPt1" /> {rating} <FormattedMessage id="justifyPt2" /></label>
+                        <textarea className="u-full-width" placeholder="" id="exampleMessage" required></textarea>
+                        <div className="row">
+                            <button value="Voltar" onClick={() => this.back()}><FormattedMessage id="back" /></button>
+                            <input className="u-pull-right button-primary" type="submit" value={inputValue} />
+                        </div>
+                    </form>
+                </div>
+            </Animated>
         );
     }
 }

@@ -8,7 +8,10 @@ export default {
       justifyPt2: '?',
       back: 'Back',
       save: 'Submit',
-      thankYou: 'Thank you!'
+      thankYou: 'Thank you!',
+      pageNotFound: 'Page not found.',
+      feelLonely: 'Feeling lost? Go back to ',
+      homepage: 'homepage'
     },
     'pt-BR': {
       hello: 'Olá',
@@ -19,6 +22,9 @@ export default {
       justifyPt2: 'sobre a indicação?',
       back: 'Voltar',
       save: 'Enviar',
-      thankYou: 'Muito obrigado!'
+      thankYou: 'Muito obrigado!',
+      pageNotFound: 'Página não encontrada.',
+      feelLonely: 'Meio perdido? Volte para a ',
+      homepage: 'página inicial'
     }
   }

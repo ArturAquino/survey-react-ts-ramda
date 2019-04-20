@@ -6,6 +6,7 @@
     "animated": "^0.2.2",
     "ramda": "^0.26.1",
     "react": "^16.8.6",
+    "react-animated-css": "^1.0.5",
     "react-app-polyfill": "^0.2.2",
     "react-dom": "^16.8.6",
     "react-intl": "^2.8.0",

@@ -1,8 +1,9 @@
 import * as React from "react";
 import { Redirect } from "react-router-dom";
 import NPSComponent from "../../components/NPSComponent/NPSComponent";
-import "./NPS.css";
 import { FormattedMessage } from "react-intl";
+import {Animated} from "react-animated-css";
+import "./NPS.css";
 
 export interface State {
   redirectToReferrer: string,
@@ -41,11 +42,13 @@ export default class NPS extends React.Component<any, State> {
     }} />
     } else {
       return (
-        <div className="content-wrapper">
-          <p className="nps-title"><FormattedMessage id="hello" /> {name}, <FormattedMessage id="howAreYou" /></p>
-          <p className="nps-question"><FormattedMessage id="npsQuestion1" /> {company} <FormattedMessage id="npsQuestion2" /></p>
-          <NPSComponent callback={(value: number) => this.handleNPSSelect(value)}/>
-        </div>
+        <Animated animationIn="fadeInUp" animationOut="fadeIn" isVisible={true}>
+          <div className="content-wrapper">
+            <p className="nps-title"><FormattedMessage id="hello" /> {name}, <FormattedMessage id="howAreYou" /></p>
+            <p className="nps-question"><FormattedMessage id="npsQuestion1" /> {company} <FormattedMessage id="npsQuestion2" /></p>
+            <NPSComponent callback={(value: number) => this.handleNPSSelect(value)}/>
+          </div>
+        </Animated>
       )
     }
   }
