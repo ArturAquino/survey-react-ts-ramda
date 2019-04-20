@@ -1,0 +1,7 @@
+.nps-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 550px;
+    margin: 0 auto;
+}

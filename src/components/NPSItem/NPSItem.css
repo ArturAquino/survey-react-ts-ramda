@@ -1,0 +1,23 @@
+.nps-item {
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 15px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.nps-item:hover {
+    opacity: 0.75;
+}
+
+@media screen and (max-width: 470px) {
+    .nps-item {
+        padding: 8px 12px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .nps-item {
+        padding: 5px 8px;
+    }
+}
