@@ -10,7 +10,7 @@ import NotFound from "./pages/NotFound/NotFound";
 class App extends React.Component {
   public render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/survey-react-ts-ramda">
         <Switch>
           <Route path="/" exact component={NPS} />
           <Route path="/justify" component={Justify} />
