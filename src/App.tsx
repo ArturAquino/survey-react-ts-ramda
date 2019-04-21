@@ -1,6 +1,6 @@
-import * as React from 'react';
-import 'react-skeleton-css/styles/skeleton.2.0.4.css'
-import 'react-skeleton-css/styles/normalize.3.0.2.css';
+import * as React from "react";
+import "react-skeleton-css/styles/skeleton.2.0.4.css"
+import "react-skeleton-css/styles/normalize.3.0.2.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import NPS from "./pages/NPS/NPS";
 import Justify from "./pages/Justify/Justify";

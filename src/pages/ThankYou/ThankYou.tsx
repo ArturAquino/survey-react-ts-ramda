@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./ThankYou.css";
 import { FormattedMessage, injectIntl } from "react-intl";
-import likeImg from '../../assets/img/like.gif';
+import likeImg from "../../assets/img/like.gif";
 import {Animated} from "react-animated-css";
 
 class ThankYou extends React.Component<any> {

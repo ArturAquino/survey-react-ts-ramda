@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Justify.css";
 import { Redirect } from "react-router-dom";
-import { FormattedMessage, injectIntl } from 'react-intl';
+import { FormattedMessage, injectIntl } from "react-intl";
 import {Animated} from "react-animated-css";
 
 export interface State {

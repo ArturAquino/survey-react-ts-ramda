@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./NPSComponent.css";
-import NPSItem from '../NPSItem/NPSItem';
-import { map } from 'ramda';
+import NPSItem from "../NPSItem/NPSItem";
+import { map } from "ramda";
 
 export interface NPSItemType {
     label: number,
@@ -47,7 +47,7 @@ export default class NPSComponent extends React.Component<Props> {
     render() {
         return (
             <ul className="nps-list">
-                { map(this.renderNPSItem, this.npsArray) }
+                {map(this.renderNPSItem, this.npsArray)}
             </ul>
         );
     }

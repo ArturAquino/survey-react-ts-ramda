@@ -2,10 +2,10 @@ import * as React from "react";
 import "./NPSItem.css";
 
 export interface Props {
-    tabIndex?: number;
-    label: number;
-    color: string;
-    onSelect: any
+  tabIndex?: number;
+  label: number;
+  color: string;
+  onSelect: any
 };
 
 export default class NPSItem extends React.Component<Props> {
@@ -14,7 +14,7 @@ export default class NPSItem extends React.Component<Props> {
   }
 
   render() {
-    const { label, color, onSelect, tabIndex } = this.props; 
+    const { label, color, onSelect, tabIndex } = this.props;
     const styles = {
       backgroundColor: color
     };
