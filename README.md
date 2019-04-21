@@ -3,6 +3,7 @@ A survey app made with React and TypeScript. It uses [Ramda](https://ramdajs.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+You can view this project working in my [Github Pages](https://eduardogc.github.io/survey-react-ts-ramda/).
 
 ## Setup
 
