@@ -2,6 +2,7 @@
   "name": "survey-react-ts-ramda",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://eduardogc.github.io/survey-react-ts-ramda/",
   "dependencies": {
     "animated": "^0.2.2",
     "ramda": "^0.26.1",
