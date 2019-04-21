@@ -1,4 +1,4 @@
-# Survey App
+# Survey App [![Build Status](https://travis-ci.com/eduardogc/survey-react-ts-ramda.svg?branch=master)](https://travis-ci.com/eduardogc/survey-react-ts-ramda)
 A survey app made with React and TypeScript. It uses [Ramda](https://ramdajs.com/) for specific purposes.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
